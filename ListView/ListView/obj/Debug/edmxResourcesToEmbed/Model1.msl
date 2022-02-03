@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ComputerModelContainer" CdmEntityContainer="ComputerEntities">
+    <EntitySetMapping Name="comp">
+      <EntityTypeMapping TypeName="ComputerModel.comp">
+        <MappingFragment StoreEntitySet="comp">
+          <ScalarProperty Name="kod" ColumnName="kod" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="zena" ColumnName="zena" />
+          <ScalarProperty Name="images" ColumnName="images" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
